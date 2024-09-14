@@ -3,12 +3,18 @@ import { Link } from "react-router-dom";
 export const navigation = [
   {
     label: <Link to="/">Home Page</Link>,
-    key: "mail",
+    key: "home",
     // icon: <MailOutlined />,
   },
   {
     label: <Link to="/Todos">Todos</Link>,
-    key: "app",
+    key: "todo",
+    // icon: <AppstoreOutlined />,
+    // disabled: true,
+  },
+  {
+    label: <Link to="/Vite">Vite</Link>,
+    key: "vite",
     // icon: <AppstoreOutlined />,
     // disabled: true,
   },

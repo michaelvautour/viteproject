@@ -4,7 +4,7 @@ import { navigation } from "./Navbar.helpers";
 import { Outlet } from "react-router-dom";
 
 const Navbar = () => {
-  const [current, setCurrent] = useState("mail");
+  const [current, setCurrent] = useState("home");
   const onClick = (e: { key: SetStateAction<string> }) => {
     console.log("click ", e);
     setCurrent(e.key);
